@@ -20,13 +20,12 @@ export default function Page() {
             className="logo-spin"
             height={75}
           />
-          
         </NavBarBrand>
         <span className="display-6">NextJS + Typescript Demo</span>
       </Navbar>
       <Row>
         <Col md={6} lg={4}>
-          <MathCard value={1} />
+          <MathCard />
         </Col>
         <Col md={6} lg={4}>
           <NameCard />
