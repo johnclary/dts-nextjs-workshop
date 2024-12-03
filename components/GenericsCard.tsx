@@ -41,7 +41,7 @@ const makeArrayOfLikeObjects = <T extends object>(name1: T, name2: T) => {
   return [name1, name2];
 };
 
-export default function ArrayCard() {
+export default function GenericsCard() {
   const people = makeArrayOfPeople(john, stan);
 
   const peopleAndDogs = makeArrayOfObjects(stan, sylvie);
