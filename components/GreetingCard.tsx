@@ -17,10 +17,10 @@ const fancyName: Name = {
 
 const getSimpleGreeting = (name: string) => `Hello, ${name}!`;
 
-const getFancyGreeting = (name: Name) =>
-  `Hello, ${name.first} ${name.middle ? name.middle : ""} ${name.last}!`;
+const getFancyGreeting = ({ first, middle, last }: Name) =>
+  `Hello, ${first} ${middle ? middle : ""} ${last}!`;
 
-export default function NameCard() {
+export default function GreetingCard() {
   const simpleGreeting = getSimpleGreeting(simpleName);
   const fancyGreeting = getFancyGreeting(fancyName);
   return (

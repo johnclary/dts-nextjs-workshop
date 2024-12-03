@@ -5,7 +5,7 @@ import Image from "react-bootstrap/Image";
 import Navbar from "react-bootstrap/Navbar";
 import NavBarBrand from "react-bootstrap/NavBarBrand";
 import MathCard from "@/components/MathCard";
-import NameCard from "@/components/NameCard";
+import NameCard from "@/components/GreetingCard";
 import GenericsCard from "@/components/GenericsCard";
 import StatefulCard from "@/components/StatefulCard";
 
