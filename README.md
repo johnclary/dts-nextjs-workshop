@@ -7,7 +7,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 3. Visit [http://localhost:3000](http://localhost:3000)
 4. If your app redirects to `/crashes`, you will need to clear your network cache or disable it with your dev console. To do so, open the dev console, go to the network settings tab, and disable the cache. Once you've done so, leave your console open and navigate to `http://localhost:3000` again.
 
-## Cards
+## Workshop
 
 ### Math card - `components/MathCard.tsx`
 
@@ -22,7 +22,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ### Generics card - `components/GenericsCard.tsx`
 
 1. Inspect the return types of the three different functions.
-2. Modify the `makeArrayOfLikeObjects` function so that it  accept like objects of a type other than `Dog`
+2. Modify the `makeArrayOfLikeObjects` function so that it accept like objects of a type other than `Dog`
 3. Replace the `JSON.stringify` call with some code that renders a property from an object in the `peopleAndDogs` array. Why is this typing so annoying? Hint: we're going to learn about the `Record` type to solve this :)
 
 ### Stateful card
+
+1. Move the buttons into a separate component(s)
