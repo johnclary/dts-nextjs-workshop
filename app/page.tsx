@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Navbar from "react-bootstrap/Navbar";
-import NavBarBrand from "react-bootstrap/NavBarBrand";
+import NavbarBrand from "react-bootstrap/NavbarBrand";
 import MathCard from "@/components/MathCard";
 import NameCard from "@/components/GreetingCard";
 import GenericsCard from "@/components/GenericsCard";
@@ -13,14 +13,14 @@ export default function Page() {
   return (
     <Container>
       <Navbar className=" mb-3">
-        <NavBarBrand>
+        <NavbarBrand>
           <Image
             alt="DTS logo"
             src="/img/dts.png"
             className="logo-spin"
             height={75}
           />
-        </NavBarBrand>
+        </NavbarBrand>
         <span className="display-6">NextJS + Typescript Demo</span>
       </Navbar>
       <Row>
